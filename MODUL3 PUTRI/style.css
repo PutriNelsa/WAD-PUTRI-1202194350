@@ -1,0 +1,15 @@
+hr{
+    border-top: 4px solid skyblue;
+}
+.bawah{
+    background-color: lightgray;
+    height: 20rem;
+    width: 100%;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+.form_check{
+    margin-left: 10px;
+}
