@@ -1,6 +1,6 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +8,13 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/8e606f1b84.js" crossorigin="anonymous"></script>
         <title>Document</title>
-    </head>
-    <body class="bg-warning bg-opacity-10 d-flex flex-column min-vh-100">
-        <?php
-        session_start(); 
-        if(isset($_SESSION['status'])){
+</head>
+<body class="bg-warning bg-opacity-10 d-flex flex-column min-vh-100">
+    <?php
+    session_start(); 
+    if(isset($_SESSION['status'])){
             ?>
-        <?php
+    <?php
             if ( isset($_COOKIE['warna']) ) {
                 $warna = $_COOKIE['warna'];
                 if ($warna == 'light') {

@@ -11,7 +11,8 @@
     </head>
     <body class="bg-warning bg-opacity-10 d-flex flex-column min-vh-100">
         <?php
-         
+        
+        session_start(); 
         if(isset($_SESSION['status'])){
             ?>
         <?php
